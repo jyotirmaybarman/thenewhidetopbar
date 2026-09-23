@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: hidetopbar\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-09-25 11:00-0300\n"
+"POT-Creation-Date: 2026-09-23 17:42+0530\n"
 "PO-Revision-Date: 2026-02-03 14:50+0300\n"
 "Last-Translator: Fraxinus Acer\n"
 "Language-Team: \n"
@@ -53,54 +53,62 @@ msgstr "Порог барьера давления:"
 msgid "Pressure barrier's timeout:"
 msgstr "Интервал барьера давления:"
 
-#: Settings.ui:268
+#: Settings.ui:169
+#, fuzzy
+#| msgid "Show panel when mouse approaches edge of the screen"
+msgid ""
+"Show panel when mouse approaches edge of the screen while a window is "
+"maximized"
+msgstr "Показывать панель, когда мышь приближается к краю экрана"
+
+#: Settings.ui:293
 msgid "Sensitivity"
 msgstr "Чувствительность"
 
-#: Settings.ui:288
+#: Settings.ui:313
 msgid "Slide animation time when entering/leaving overview:"
 msgstr "Время анимации появления при входе или выходе из обзора:"
 
-#: Settings.ui:301
+#: Settings.ui:326
 msgid "Slide animation time when mouse approaches edge of the screen:"
 msgstr "Время анимации появления, когда мышь приближается к краю экрана:"
 
-#: Settings.ui:341
+#: Settings.ui:366
 msgid "Animation"
 msgstr "Анимация"
 
-#: Settings.ui:364
+#: Settings.ui:389
 msgid ""
 "Key that triggers the bar to be shown (press backspace to deactivate the "
 "shortcut):"
 msgstr ""
-"Клавиша, запускающая отображение панели (нажмите backspace, чтобы "
-"отключить комбинации клавиш):"
+"Клавиша, запускающая отображение панели (нажмите backspace, чтобы отключить "
+"комбинации клавиш):"
 
-#: Settings.ui:380
+#: Settings.ui:405
 msgid ""
 "Delay before the bar rehides after key press (a value of 0 disables the "
 "rehiding):"
 msgstr ""
-"Задержка перед повторным скрытием панели после нажатия клавиши (значение "
-"0 отключает повторное скрытие):"
+"Задержка перед повторным скрытием панели после нажатия клавиши (значение 0 "
+"отключает повторное скрытие):"
 
-#: Settings.ui:396
+#: Settings.ui:421
 msgid "Pressing the shortcut again rehides the panel"
 msgstr "Нажатие клавиш скрывает панель заново"
 
-#: Settings.ui:468
+#: Settings.ui:493
 msgid "Keyboard shortcuts"
 msgstr "Комбинации клавиши"
 
-#: Settings.ui:491
+#: Settings.ui:516
 msgid "Only hide panel when a window takes the space"
 msgstr "Скрывать панель только тогда, когда окно занимает пространство"
 
-#: Settings.ui:507
+#: Settings.ui:532
 msgid "Only when the active window takes the space"
 msgstr "Только когда активное окно занимает пространство"
 
-#: Settings.ui:544
+#: Settings.ui:569
 msgid "Intellihide"
 msgstr "Интеллектуальное скрытие"

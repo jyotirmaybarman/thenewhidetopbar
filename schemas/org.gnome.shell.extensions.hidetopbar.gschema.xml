@@ -24,6 +24,15 @@
         Set to "true" to also show panel when mouse approaches edge of the screen when windows are in fullscreen mode.
       </description>
     </key>
+    <key name="mouse-sensitive-maximized-window" type="b">
+      <default>true</default>
+      <summary>Show panel when mouse approaches edge of the screen while a window is maximized</summary>
+      <description>
+        Set to "true" to show panel when the mouse approaches the edge of the
+        screen while a window is maximized. This works independently of the
+        "mouse-sensitive" option.
+      </description>
+    </key>
     <key name="mouse-triggers-overview" type="b">
       <default>false</default>
       <summary>Show overview when mouse approaches edge of the screen</summary>

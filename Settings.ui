@@ -46,7 +46,7 @@
     <property name="vexpand">True</property>
     <property name="can-focus">True</property>
     <child>
-      <!-- n-columns=2 n-rows=8 -->
+      <!-- n-columns=2 n-rows=9 -->
       <object class="GtkGrid">
         <property name="visible">True</property>
         <property name="can-focus">False</property>
@@ -161,6 +161,19 @@
           </object>
         </child>
         <child>
+          <object class="GtkLabel">
+            <property name="visible">True</property>
+            <property name="can-focus">False</property>
+            <property name="halign">start</property>
+            <property name="hexpand">True</property>
+            <property name="label" translatable="yes">Show panel when mouse approaches edge of the screen while a window is maximized</property>
+            <layout>
+              <property name="column">0</property>
+              <property name="row">8</property>
+            </layout>
+          </object>
+        </child>
+        <child>
           <object class="GtkSwitch" id="toggle_mouse_sensitive">
             <property name="visible">True</property>
             <property name="can-focus">True</property>
@@ -256,6 +269,18 @@
             <layout>
               <property name="column">1</property>
               <property name="row">7</property>
+            </layout>
+          </object>
+        </child>
+        <child>
+          <object class="GtkSwitch" id="toggle_mouse_sensitive_maximized_window">
+            <property name="visible">True</property>
+            <property name="can-focus">True</property>
+            <property name="halign">end</property>
+            <property name="valign">center</property>
+            <layout>
+              <property name="column">1</property>
+              <property name="row">8</property>
             </layout>
           </object>
         </child>

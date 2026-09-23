@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: hidetopbar\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-09-25 11:00-0300\n"
+"POT-Creation-Date: 2026-09-23 17:42+0530\n"
 "PO-Revision-Date: 2021-09-14 11:49+0200\n"
 "Last-Translator: Philipp Kiemle <philipp.kiemle@gmail.com>\n"
 "Language-Team: German <>\n"
@@ -52,30 +52,38 @@ msgstr "Schwellenwert der Druckempfindlichkeit:"
 msgid "Pressure barrier's timeout:"
 msgstr "Time-Out der Druckempfindlichkeit:"
 
-#: Settings.ui:268
+#: Settings.ui:169
+#, fuzzy
+#| msgid "Show panel when mouse approaches edge of the screen"
+msgid ""
+"Show panel when mouse approaches edge of the screen while a window is "
+"maximized"
+msgstr "Panel anzeigen, wenn die Maus den oberen Bildschirmrand berührt"
+
+#: Settings.ui:293
 msgid "Sensitivity"
 msgstr "Empfindlichkeit"
 
-#: Settings.ui:288
+#: Settings.ui:313
 msgid "Slide animation time when entering/leaving overview:"
 msgstr "Animationszeit beim Betreten/Verlassen der Übersicht:"
 
-#: Settings.ui:301
+#: Settings.ui:326
 msgid "Slide animation time when mouse approaches edge of the screen:"
 msgstr "Animationszeit, wenn die Maus den Bildschirmrand berührt:"
 
-#: Settings.ui:341
+#: Settings.ui:366
 msgid "Animation"
 msgstr "Animation"
 
-#: Settings.ui:364
+#: Settings.ui:389
 msgid ""
 "Key that triggers the bar to be shown (press backspace to deactivate the "
 "shortcut):"
 msgstr ""
 "Taste, um die Leiste anzuzeigen (Rücktaste drücken um zu deaktivieren):"
 
-#: Settings.ui:380
+#: Settings.ui:405
 msgid ""
 "Delay before the bar rehides after key press (a value of 0 disables the "
 "rehiding):"
@@ -83,22 +91,22 @@ msgstr ""
 "Zeit, nach der die Leiste nach dem Drücken der Taste wieder ausgeblendet "
 "wird (beim Wert 0 wird nicht automatisch ausgeblendet):"
 
-#: Settings.ui:396
+#: Settings.ui:421
 msgid "Pressing the shortcut again rehides the panel"
 msgstr "Erneutes Drücken des Tastenkürzels versteckt die Leiste wieder"
 
-#: Settings.ui:468
+#: Settings.ui:493
 msgid "Keyboard shortcuts"
 msgstr "Tastaturkürzel"
 
-#: Settings.ui:491
+#: Settings.ui:516
 msgid "Only hide panel when a window takes the space"
 msgstr "Panel nur verstecken, wenn ein Fenster im Weg ist"
 
-#: Settings.ui:507
+#: Settings.ui:532
 msgid "Only when the active window takes the space"
 msgstr "Nur wenn das aktive Fenster im Weg ist"
 
-#: Settings.ui:544
+#: Settings.ui:569
 msgid "Intellihide"
 msgstr "Intelligentes Ausblenden"

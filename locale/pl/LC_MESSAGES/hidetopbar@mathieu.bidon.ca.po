@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-09-25 11:00-0300\n"
+"POT-Creation-Date: 2026-09-23 17:42+0530\n"
 "PO-Revision-Date: 2017-01-15 17:21+0100\n"
 "Last-Translator: Piotr Sokół <psokol.l10n@gmail.com>\n"
 "Language-Team: polski <>\n"
@@ -55,50 +55,58 @@ msgstr "Próg nacisku:"
 msgid "Pressure barrier's timeout:"
 msgstr "Czas nacisku:"
 
-#: Settings.ui:268
+#: Settings.ui:169
+#, fuzzy
+#| msgid "Show panel when mouse approaches edge of the screen"
+msgid ""
+"Show panel when mouse approaches edge of the screen while a window is "
+"maximized"
+msgstr "Wyświetlenie panelu przenosząc wskaźnik myszy do krawędzi ekranu"
+
+#: Settings.ui:293
 msgid "Sensitivity"
 msgstr "Czułość"
 
-#: Settings.ui:288
+#: Settings.ui:313
 msgid "Slide animation time when entering/leaving overview:"
 msgstr "Czas animacji wysuwania przełączając ekran podglądu:"
 
-#: Settings.ui:301
+#: Settings.ui:326
 msgid "Slide animation time when mouse approaches edge of the screen:"
 msgstr "Czas animacji wysuwania przenosząc wskaźnik do krawędzi ekranu:"
 
-#: Settings.ui:341
+#: Settings.ui:366
 msgid "Animation"
 msgstr "Animacja"
 
-#: Settings.ui:364
+#: Settings.ui:389
 msgid ""
 "Key that triggers the bar to be shown (press backspace to deactivate the "
 "shortcut):"
 msgstr "Przełączenie wyświetlania paska:"
 
-#: Settings.ui:380
+#: Settings.ui:405
 msgid ""
 "Delay before the bar rehides after key press (a value of 0 disables the "
 "rehiding):"
 msgstr "Opóźnienie ponownego ukrycia po wciśnięciu skrótu:"
 
-#: Settings.ui:396
+#: Settings.ui:421
 msgid "Pressing the shortcut again rehides the panel"
 msgstr "Ponowne ukrywanie panelu wciśnięciem skrótu"
 
-#: Settings.ui:468
+#: Settings.ui:493
 msgid "Keyboard shortcuts"
 msgstr "Skróty klawiszowe"
 
-#: Settings.ui:491
+#: Settings.ui:516
 msgid "Only hide panel when a window takes the space"
 msgstr "Ukrywanie tylko przed oknami"
 
-#: Settings.ui:507
+#: Settings.ui:532
 msgid "Only when the active window takes the space"
 msgstr "Ukrywanie tylko przed uaktywnionymi oknami"
 
-#: Settings.ui:544
+#: Settings.ui:569
 msgid "Intellihide"
 msgstr "Inteligentne ukrywanie"

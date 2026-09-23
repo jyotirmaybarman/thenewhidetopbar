@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: hidetopbar\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-09-29 18:06+0200\n"
+"POT-Creation-Date: 2026-09-23 17:42+0530\n"
 "PO-Revision-Date: 2015-12-30 20:22+0100\n"
 "Last-Translator: QD\n"
 "Language-Team: \n"
@@ -53,51 +53,60 @@ msgstr "Seuil de pression (force nécessaire à la souris pour déclencher):"
 msgid "Pressure barrier's timeout:"
 msgstr "Délai de pression:"
 
-#: Settings.ui:268
+#: Settings.ui:169
+#, fuzzy
+#| msgid "Show panel when mouse approaches edge of the screen"
+msgid ""
+"Show panel when mouse approaches edge of the screen while a window is "
+"maximized"
+msgstr ""
+"Afficher la barre supérieure quand la souris approche le bord de l'écran"
+
+#: Settings.ui:293
 msgid "Sensitivity"
 msgstr "Comportement, Sensibilité"
 
-#: Settings.ui:288
+#: Settings.ui:313
 msgid "Slide animation time when entering/leaving overview:"
 msgstr "Durée d'animation en entrant ou sortant de l'apercu:"
 
-#: Settings.ui:301
+#: Settings.ui:326
 msgid "Slide animation time when mouse approaches edge of the screen:"
 msgstr "Durée d'animation du masquage de la barre supérieure:"
 
-#: Settings.ui:341
+#: Settings.ui:366
 msgid "Animation"
 msgstr "Animation"
 
-#: Settings.ui:364
+#: Settings.ui:389
 msgid ""
 "Key that triggers the bar to be shown (press backspace to deactivate the "
 "shortcut):"
 msgstr "Touche déclenchant l'affichage de la barre supérieure"
 
-#: Settings.ui:380
+#: Settings.ui:405
 msgid ""
 "Delay before the bar rehides after key press (a value of 0 disables the "
 "rehiding):"
 msgstr ""
 "Délai avant remasquage de la barre supérieure après appui sur la touche"
 
-#: Settings.ui:396
+#: Settings.ui:421
 msgid "Pressing the shortcut again rehides the panel"
 msgstr "Appuyer à nouveau sur la touche remasque la barre supérieure."
 
-#: Settings.ui:468
+#: Settings.ui:493
 msgid "Keyboard shortcuts"
 msgstr "Raccourcis clavier"
 
-#: Settings.ui:491
+#: Settings.ui:516
 msgid "Only hide panel when a window takes the space"
 msgstr "Masque uniquement quand une fenêtre couvre sa place"
 
-#: Settings.ui:507
+#: Settings.ui:532
 msgid "Only when the active window takes the space"
 msgstr "Masque uniquement quand la fenêtre active couvre la barre supérieure"
 
-#: Settings.ui:544
+#: Settings.ui:569
 msgid "Intellihide"
 msgstr "Masquage intelligent"
