@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <schemalist>
-  <schema id="org.gnome.shell.extensions.hidetopbar" path="/org/gnome/shell/extensions/hidetopbar/">
+  <schema id="org.gnome.shell.extensions.the-new-hidetopbar" path="/org/gnome/shell/extensions/the-new-hidetopbar/">
     <key name="hot-corner" type="b">
       <default>false</default>
       <summary>Keep hot corner sensitive or not</summary>

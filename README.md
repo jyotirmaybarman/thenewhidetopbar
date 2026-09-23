@@ -1,14 +1,14 @@
-About Hide Top Bar
-------------------
+## About The New Hidetopbar
 
-This GNOME extension helps to hide GNOME's top bar when it gets into your way.
+The New Hidetopbar is a fork of Hide Top Bar. Like the original, it hides
+GNOME's top bar when it gets into your way, and it adds a new option to
+reveal the top bar while a window is maximized.
 
 In the extension's preferences, different behaviors can be specified: unhiding on mouse-over or on pressing a keyboard shortcut, or when no window requires the space.
 
 ![clip](./preview.gif)
 
-Installation from extensions.gnome.org
---------------------------------------
+## Installation from extensions.gnome.org
 
 Unless you are on Debian (see section below), the recommended way of installing Hide Top Bar is via the official builds on
 [extensions.gnome.org/.../hide-top-bar/](https://extensions.gnome.org/extension/545/hide-top-bar/).
@@ -16,9 +16,7 @@ Unless you are on Debian (see section below), the recommended way of installing 
 If you're installing via a Chrome browser, make sure you read the
 [GNOME Shell integration for Chrome Installation Guide](https://wiki.gnome.org/Projects/GnomeShellIntegrationForChrome/Installation).
 
-
-[Debian](https://packages.debian.org/unstable/gnome-shell-extension-autohidetopbar)
-------
+## [Debian](https://packages.debian.org/unstable/gnome-shell-extension-autohidetopbar)
 
 If you are using a Debian based distribution, the preferred installation method is to use
 the packaged version. By this, compatibility problems caused by different gnome-shell versions in
@@ -29,8 +27,7 @@ your distribution can be avoided. You can install the package with:
 If you find problems with the _Debian packaged version_, please file bugs at
 the [Debian Bugtracking system](https://www.debian.org/Bugs/Reporting).
 
-Installation from source
-------------------------
+## Installation from source
 
 If you insist on installing from source, the commands `xgettext` and `msgfmt`
 from the `gettext` package (package name may vary depending on your
@@ -39,7 +36,7 @@ distribution) are required.
 The procedure to install from source is as follows: Check out the source code, compile by
 running `make`, install and restart GNOME Shell. For example:
 
-    git clone https://gitlab.gnome.org/tuxor1337/hidetopbar.git
+    git clone https://github.com/jyotirmaybarman/thenewhidetopbar.git
     cd hidetopbar
     make
     gnome-extensions install ./hidetopbar.zip
@@ -54,10 +51,9 @@ to try one of the following:
 
 You can enable the extension through the interface on [extensions.gnome.org](https://extensions.gnome.org), the [gnome-extensions-app](https://apps.gnome.org/de/Extensions/), or the following command line:
 
-    gnome-extensions enable hidetopbar@mathieu.bidon.ca
+    gnome-extensions enable the-new-hidetopbar@jyotirmaybarman.github.io
 
-Updating the language strings
------------------------------
+## Updating the language strings
 
 Whenever you notice that there are localizable strings in Hide Top Bar that are not
 covered by the strings in `./locale/`, you can regenerate the `*.pot`-file using the
@@ -70,15 +66,14 @@ run one of the following commands:
 
     # for updating the files for all languages:
     make all-po
-    
+
     # for updating one specific po file, where 'XX' is the language code:
-    make ./locale/XX/LC_MESSAGES/hidetopbar@mathieu.bidon.ca.po
+    make ./locale/XX/LC_MESSAGES/the-new-hidetopbar@jyotirmaybarman.github.io.po
 
 As mentioned in the previous section, running `make` requires the `gettext` package
 to be installed (the package names may vary depending on your distribution).
 
-Troubleshooting
----------------
+## Troubleshooting
 
 ### Can I assign a shortcut to temporally disable the autohiding altogether?
 
@@ -92,8 +87,7 @@ Use another extension (like [Just Perfection](https://extensions.gnome.org/exten
 
 This is an issue of the extension [Dash to Dock](https://github.com/micheleg/dash-to-dock), see also [this comment](https://github.com/tuxor1337/hidetopbar/issues/149#issuecomment-964419677).
 
-License
--------
+## License
 
 Copyright (c) 2013-2026 Thomas Vogt.
 
